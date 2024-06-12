@@ -1,0 +1,28 @@
+{
+    "name": "harmoni_bot",
+    "version": "1.0.0",
+    "description": "Bu bot, çeşitli komutlar ve MongoDB entegrasyonu ile geliştirilmiş bir test botudur.",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "mocha tests"
+    },
+    "dependencies": {
+        "@discordjs/builders": "^1.0.0",
+        "@discordjs/rest": "^1.0.0",
+        "adm-zip": "^0.5.13",
+        "axios": "^1.7.2",
+        "croxydb": "^0.0.24",
+        "discord.js": "^14.0.0",
+        "dotenv": "^16.0.0",
+        "figlet": "^1.7.0",
+        "mongoose": "^6.0.0",
+        "shortid": "^2.2.16"
+    },
+    "devDependencies": {
+        "chai": "^5.0.0",
+        "mocha": "^10.0.0"
+    },
+    "author": "emreconf",
+    "license": "ISC"
+}
